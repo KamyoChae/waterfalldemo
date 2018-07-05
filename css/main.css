@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    text-decoration: none;
+}
+i{
+    margin-left:10px; 
+    transition: all .25s ease-in-out;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid #888;
+    box-sizing: border-box;
+}
+.nav-ul li a, small{
+    font-size: 25px;
+    color: #353535;
+    font-weight: 100;
+}
+small{
+    font-size: 16px;
+}
+.nav-ul{
+    line-height: 80px; 
+    margin-left: 100px;
+}
+.nav-ul li{
+    display: inline;
+    margin-right: 30px;
+    display: inline-block;
+}
+.nav-ul li:hover a{
+    border-bottom: 5px solid #353535;
+}
+.top-banner{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/bg.jpg);
+    background-size:cover;
+}
+.top-bannerover{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background: rgb(19, 24, 88);
+    opacity: .6;
+}
+.icon-div{
+    position: absolute;
+    width: 600px;
+    height: 230px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+.img-icon{
+    width: 180px;
+    height:180px;
+    background-image: url(../images/icon.jpg);
+    background-size: cover;
+    border: 2px solid rgb(255, 238, 238);
+    border-radius: 50%;
+    margin: auto;
+}
+.infor-div{
+    position: absolute;
+    margin:auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height:30px;
+    text-align: center;
+
+
+}
+.infor-div span, .infor-div h2{
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+}
+.infor-div h2{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.infor-div h2:nth-of-type(1){
+    color: rgb(220, 238, 255);
+}
+.infor-div span:nth-of-type(1){
+    margin-right: 25px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 300px;
+}
+
+.personal{
+    width: 95%;
+    height: 100%;
+    margin: 50px auto;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+}
+.person-nav{
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #a1a1a1;
+}
+.user-name{
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 1.5em;
+}
+
+.person-text{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    white-space: wrap;
+}
+
+.person-text label{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #353535;
+    color: #fff !important;
+    text-align: center;
+}
+.person-text span{
+    display: inline-block;
+    width: 23%;
+}
+.person-text label, .person-text span{
+    font-size: 18px;
+    color:#353535;  
+    margin: 0 1em 1em 0;
+}
+
+
+.title-wrapper{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: 50px auto 50px auto;
+}
+.title-icon{
+    width:200px;
+    height: 200px;
+    left:8%;
+    position: absolute;
+    border-radius: 50%;
+    border: 1.5px solid #a1a1a1;
+    background: #fff;
+    background-image: url(../images/icon.jpg);
+    background-size: cover; 
+}
+.items-ul{
+    box-sizing: border-box;
+    position: relative;
+    padding: 40px;
+    width: 200px;
+    height: 200px;  
+    border-top-left-radius: 25% 50%;
+    border-bottom-left-radius: 25% 50%;
+    border-bottom-right-radius: 25% 50%;
+    border-top-right-radius: 25% 50%;
+    border: 1.5px solid #a1a1a1;
+    border-left:none;
+    border-top: none; 
+    overflow: hidden;
+    opacity: 0;
+    transition: all .25s ease-in-out;
+}
+
+.title-icon:hover .items-ul {
+    width: 400px;
+    opacity: 1;
+}
+.items-ul li{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.items-ul li a{
+    right: 0px;
+    font-size: 18px;
+    margin-right: 40px;
+    color: #353535;
+}
+.items-ul li a:hover{
+    border-bottom: 1px solid #353535;
+}
+.set-idear{
+    width: 70%;
+    height: 100%;
+    border: 1.5px solid #a1a1a1;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.set-idear h2, .set-idear p{
+    font-size: 18px;
+    font-weight:200;
+}
+
+.set-idear h2{
+    font-size: 30px;
+    line-height: 200px;
+}
+
+.show-div{
+    width: 80%;
+    margin: auto;
+
+}
+.text-eara-div{
+    width: 90%;
+    height: 160px;
+    margin: 50px auto 160px auto;
+    border-radius: 5px;
+}
+.text-eara-div .submit{
+    font-size: 18px;
+    padding: 10px 30px;
+    color: #fff;
+    background: #353535;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.text-eara-div .hid{
+    position: absolute;
+    font-size: 18px;
+    color: #353535;
+    background: #cbd7e0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    left: 0;
+    right: 0;
+   
+}
+
+.text-eara-div .submit:hover{
+    background: rgb(78, 72, 72);
+}
+.text-eara-div .hid:hover{
+    background: #a7b2bb;
+
+}
+.text-eara{
+    box-sizing:border-box; 
+    padding: 1em 1em 0 1em;
+    outline: none;
+    font-size: 18px;
+    border-top: 1.5px solid #353535;
+    border-bottom: 1.5px solid #353535;
+    border-left: 1px solid #353535;
+    border-right: 1px solid #353535;
+    border-radius: 5px;
+    line-height: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+
+.list-talk{
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    width: 280px;
+    min-height: 400px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #a1a1a1;
+
+}
+.talk-text-top{
+    cursor: pointer;
+    width: 100%;
+}
+.list-icon{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/icon.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #a1a1a1;
+    margin: 30px auto 10px auto;
+}
+.username-list{
+    display: block;
+    width: 60%;
+    height: 50px;
+    font-size: 18px;
+    margin: auto;
+    line-height: 50px;
+    border-bottom: 1px solid #a1a1a1;
+    text-align: center;
+}
+.talk-text-inner{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    line-height: 25px;
+    font-size: 16px;
+    color:rgb(114, 113, 113);
+    
+    padding-bottom: 40px;
+}
+.talk-text-time{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.talk-text-time .time{
+    font-size: 12px;
+    color:#abb6be;
+}
