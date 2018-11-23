@@ -9,6 +9,9 @@ i{
     margin-left:10px; 
     transition: all .25s ease-in-out;
 }
+body{
+    padding-bottom: 400px
+}
 
 .nav{
     width: 100%;
@@ -290,6 +293,13 @@ small{
     margin-bottom: 1em;
 }
 
+.li{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    word-wrap: break-word;
+    margin: 10px;
+}
 
 .list-talk{
     position: relative;
